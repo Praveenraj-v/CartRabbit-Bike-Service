@@ -49,7 +49,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## Pictures of My Task
 
 # Home-page
-![Bike_Service_Home_page](https://github.com/Praveenraj-v/CartRabbit-Bike-Service/assets/121415891/4266927a-55fa-4dda-ad77-cc6ebda9f738)
+![Bike_service_Home_Page](https://github.com/Praveenraj-v/CartRabbit-Bike-Service/assets/121415891/3e1f9d70-9ab4-4ad4-aaf0-d014b69778fa)
 # User-login 
 ![Bike_service_User_login](https://github.com/Praveenraj-v/CartRabbit-Bike-Service/assets/121415891/361287fb-4f06-4e1b-b6e4-c154756f091d)
 # User-Landing
