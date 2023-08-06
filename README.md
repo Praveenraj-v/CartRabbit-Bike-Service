@@ -16,7 +16,7 @@ This is a web application for a bike service center that allows customers to vie
 - Frontend: React.js
 - Backend: Node.js (Express.js)
 - Database: MongoDB
-- State Management: React Context API (or Redux)
+- State Management: React Context API
 - Styling: CSS (you can use CSS-in-JS libraries like styled-components or CSS frameworks like Bootstrap)
 - Authentication: JWT (JSON Web Tokens)
 
@@ -24,7 +24,7 @@ This is a web application for a bike service center that allows customers to vie
 
 1. Clone the repository:
 2. Install dependencies for both frontend and backend:
-3. Create a `.env` file in the `backend` directory and set your environment variables (e.g., MongoDB connection string, JWT secret, etc.):
+3. Create a `DB config` file in the `backend` directory and set your environment variables (e.g., MongoDB connection string):
 4. Start the development server for both frontend and backend:
 
 
@@ -35,16 +35,18 @@ This is a web application for a bike service center that allows customers to vie
 
 ## API Endpoints
 
-- `GET /services`: Get a list of available services.
+- `POST /addUseer` : Customer signUp endpoint.
 - `POST /customer/login`: Customer login endpoint.
 - `POST /customer/bookingservice`: Customer booking endpoint.
 - `GET /customer/bookings/:customerId`: Get booking history for a specific customer.
 - `POST /admin/login`: Admin login endpoint.
-- `POST /admin/addservice`: Add a new service (Admin only).
+- `GET /owner/bookings`: Add a new service (Admin only).
+- `PUT /owner/bookings/bookingId`: Update the bike service status.
+- `GET /services`: To get services details.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to convey.
 
 ## Pictures of My Task
 
